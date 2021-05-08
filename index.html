@@ -5,6 +5,7 @@
     <title>Christian Cahill Video Editing</title>
     <meta name="description" content="This is an example of a meta description.">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TS16NWLVDK"></script>
     <script>
@@ -22,6 +23,7 @@
 
       gtag('config', 'G-TS16NWLVDK');
     </script>
+
 
   </head>
   <body>
@@ -53,12 +55,32 @@
         <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
 
+      <li class="collapsible">artistic - experimental</li>
+      <div class="content" id="artistic">
+            <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="youtube-container">
+                <iframe src="https://www.youtube.com/embed/RUQhJW-kGkU"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+
       <li class="collapsible">about</li>
       <div class="content" id="about">
         <p>Christian Cahill is a New York-born, Berlin based video editor and motion graphics artist.
         He is fascinated by the ability of video and digital media to tell stories, convey moods, and create identities.</p>
         <p>For work inquiries, please contact <a href="mailto:christiancahilldigital@gmail.com">christiancahilldigital@gmail.com</a></p>
       </div>
+
 
     </ul>
 
@@ -69,6 +91,9 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous">
     </script>
+
+    <!-- Swiper JS -->
+    <script src="script/swiper-bundle.min.js"></script>
     <script src="script/main.js" charset="utf-8"></script>
   </body>
 </html>
